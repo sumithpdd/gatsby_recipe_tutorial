@@ -60,3 +60,12 @@ npm install normalize.css
 npm install react-icons
 
 ```
+
+## Install gatsby image plugins
+
+<https://www.gatsbyjs.com/plugins/gatsby-plugin-image/>
+
+```shell
+npm install gatsby-plugin-image gatsby-plugin-sharp gatsby-source-filesystem gatsby-transformer-sharp
+
+```
