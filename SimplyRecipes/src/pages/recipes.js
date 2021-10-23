@@ -1,11 +1,12 @@
 import React from 'react'
 import Layout from './components/Layout'
-const error = () => {
+
+const Recipes = () => {
     return (
         <Layout>
-            error 404 not found page!
+         <h1> hello from recipes</h1>   
         </Layout>
     )
 }
 
-export default error
+export default Recipes

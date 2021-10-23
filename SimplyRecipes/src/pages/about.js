@@ -1,13 +1,12 @@
-import React from 'react'
-// import Navbar from "./components/Navbar"
-import Layout from './components/Layout'
+import React from "react"
+import Layout from "./components/Layout"
 const about = () => {
-    return (
-        <Layout>
-            {/* <Navbar/> */}
-            hello form about page
-        </Layout>
-    )
+  return (
+    <Layout>
+      {/* <Navbar/> */}
+      <h1>about page</h1>
+    </Layout>
+  )
 }
 
 export default about
