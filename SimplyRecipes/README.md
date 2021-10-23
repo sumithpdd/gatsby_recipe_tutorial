@@ -53,3 +53,10 @@
 npm install normalize.css
 
 ```
+
+## Install react icons
+
+```shell
+npm install react-icons
+
+```
