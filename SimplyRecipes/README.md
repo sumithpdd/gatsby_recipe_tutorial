@@ -46,3 +46,10 @@
     ```javascript
     plugins: [`gatsby-plugin-styled-components`],
     ```
+
+## Install Normalize css
+
+```shell
+npm install normalize.css
+
+```
