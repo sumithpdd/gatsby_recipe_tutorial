@@ -69,3 +69,12 @@ npm install react-icons
 npm install gatsby-plugin-image gatsby-plugin-sharp gatsby-source-filesystem gatsby-transformer-sharp
 
 ```
+
+## Install gatsby contentful plugins
+
+<https://www.gatsbyjs.com/plugins/gatsby-source-contentful/?=content>
+
+```shell
+npm install gatsby-source-contentful
+
+```
