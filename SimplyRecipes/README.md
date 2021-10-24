@@ -78,3 +78,10 @@ npm install gatsby-plugin-image gatsby-plugin-sharp gatsby-source-filesystem gat
 npm install gatsby-source-contentful
 
 ```
+
+## Install slugify to convert text into slug
+
+```shell
+npm i slugify
+
+```
