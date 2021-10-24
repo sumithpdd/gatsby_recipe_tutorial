@@ -85,3 +85,12 @@ npm install gatsby-source-contentful
 npm i slugify
 
 ```
+
+## Install webfonts
+
+<https://www.gatsbyjs.com/plugins/gatsby-plugin-webfonts/?=webfonts>
+
+```shell
+npm install gatsby-plugin-webfonts
+
+```
