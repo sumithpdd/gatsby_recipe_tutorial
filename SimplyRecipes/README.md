@@ -94,3 +94,12 @@ npm i slugify
 npm install gatsby-plugin-webfonts
 
 ```
+
+## Install react helmet for Seo
+
+<https://www.gatsbyjs.com/plugins/gatsby-plugin-react-helmet/?=helmet>
+
+```shell
+npm install gatsby-plugin-react-helmet react-helmet
+
+```

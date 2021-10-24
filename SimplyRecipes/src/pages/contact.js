@@ -1,13 +1,15 @@
 import React from "react"
 import Layout from "../components/Layout"
 import { graphql } from "gatsby"
-import RecipesList from "../components/RecipesList" 
+import RecipesList from "../components/RecipesList"
+import Seo from "../components/Seo"
 
 const Contact = ({ data }) => {
   const recipes = data.allContentfulRecipe.nodes
   return (
     <Layout>
-        <main className="page">
+      <Seo title="Contact" />
+      <main className="page">
         <section className="contact-page">
           <article className="contact-info">
             <h3>Want To Get In Touch?</h3>
@@ -22,9 +24,7 @@ const Contact = ({ data }) => {
             </p>
           </article>
           <article>
-            <form className="form contact-form"
-            action=""
-            method="POST">
+            <form className="form contact-form" action="" method="POST">
               <div className="form-row">
                 <label htmlFor="name">your name</label>
                 <input type="text" name="name" id="name" />

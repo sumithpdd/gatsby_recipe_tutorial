@@ -42,6 +42,7 @@ module.exports = {
         host: `cdn.contentful.com`,
       },
     },
+    `gatsby-plugin-react-helmet`,
     // {
     //   resolve: `gatsby-plugin-webfonts`,
     //   options: {
