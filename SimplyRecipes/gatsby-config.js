@@ -3,6 +3,10 @@
  *
  * See: https://www.gatsbyjs.com/docs/gatsby-config/
  */
+// Initialize dotenv
+require('dotenv').config({
+  path: `.env.${process.env.NODE_ENV}`, // or '.env'
+});
 
 module.exports = {
   /* Your site config here */
@@ -31,10 +35,10 @@ module.exports = {
   {
     resolve: `gatsby-source-contentful`,
         options: {
-          spaceId: `your_space_id`,
+          spaceId: `gxaoop55lg4g`,
           // Learn about environment variables: https://gatsby.dev/env-vars
           accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
-          host: `preview.contentful.com`,
+          host: `cdn.contentful.com`,
         },
   }
 ]
